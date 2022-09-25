@@ -109,9 +109,9 @@ const USER_CONFIG = {
       id: 'oVSUU6RNU2npLuJKARUvrIKNbsm8',
       useTemplateId: '7IoGw03oSOQw5V6LBmTbfchfubA0Hz6U_sHZLdFLI40',
       // 所在省份
-      province: '北京',
+      province: '广西',
       // 所在城市
-      city: '北京',
+      city: '南宁',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '9-22',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
