@@ -89,7 +89,10 @@ const USER_CONFIG = {
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
-      customizedDateList: [],
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2021-09-17' }
+      ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
@@ -122,7 +125,7 @@ const USER_CONFIG = {
           type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-17',
         }
       ],
-      customizedDateList: [],
+      customizedDateList: [{ keyword: 'love_day', date: '2021-09-17' }],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       courseSchedule: null
     },
