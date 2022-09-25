@@ -82,10 +82,13 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老公', year: '1998', date: '03-06',
+          type: '*生日', name: '老婆', year: '2001', date: '08-06',
         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-7',
+          type: '生日', name: '老公', year: '1998', date: '03-06',
+        },
+        {
+          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-17',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -106,9 +109,9 @@ const USER_CONFIG = {
       id: 'oVSUU6RNU2npLuJKARUvrIKNbsm8',
       useTemplateId: '7IoGw03oSOQw5V6LBmTbfchfubA0Hz6U_sHZLdFLI40',
       // 所在省份
-      province: '南宁',
+      province: '广西壮族自治区',
       // 所在城市
-      city: '广西壮族自治区',
+      city: '南宁',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '9-22',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -118,7 +121,10 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '2001', date: '09-22',
+          type: '*生日', name: '老婆', year: '2001', date: '08-06',
+        },
+        {
+          type: '生日', name: '老公', year: '1998', date: '03-06',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
